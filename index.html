@@ -4,10 +4,38 @@
 		<title>QuickReply</title>
 		<link rel="shortcut icon" type="image/png" href="/favicon.png">
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-		<script src="CopyFunction.js"></script>
 	</head>
 	
 	<body style= "margin:0">
-	
+		<p>Click on the button to copy the text from the text field.</p>
+		
+		<div class="container">
+		<textarea class="CopyText" id="Text1" readonly>Please don't post on old, resolved topics. That is called necroposting and isn't allowed. </textarea>
+		<button onclick="myFunction(1)">Copy Text</button>
+		<br>
+		<br>
+		</div>
+
+		<div class="container">
+		<textarea class="CopyText" id="Text2" readonly>This suggestion is rejected, please check out the list of [url=https://scratch.mit.edu/discuss/topic/343602/]Rejected Suggestions[/url] before posting.</textarea>
+		<button onclick="myFunction(2)">Copy Text</button>
+		<br>
+		<br>
+		</div>
+		
+		<div class="container">
+		<textarea class="CopyText" id="Text3" readonly></textarea>
+		<button onclick="myFunction(3)">Copy Text</button>
+		<br>
+		<br>
+		</div>
+		
+		<script>
+			function myFunction(area) {
+  				var copyText = document.getElementById("Text"+area);
+ 				copyText.select();
+  				document.execCommand("copy");
+				}
+		</script>
 	</body>
 </html>
