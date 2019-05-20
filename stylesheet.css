@@ -1,23 +1,25 @@
 .container {
-				margin-bottom: 40px;
-				}
+	margin-bottom: 40px;
+	}
+
 .CopyText {
-				float: left;
-				width: 50%;
-				height: 40px;
-				padding: 10px 20px;
-				border: 2px solid #ccc;
-				border-radius: 10px;
-				background-color: #f8f8f8;
-				font-family: Helvetica, Arial, sans-serif;
-				resize: none;
-				}
+	float: left;
+	width: 50%;
+	height: 40px;
+	padding: 10px 20px;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	background-color: #f8f8f8;
+	font-family: Helvetica, Arial, sans-serif;
+	resize: none;
+	}
+
 button {
-					margin-left: 5px;
-					float: left;
-					padding: 15px 15px;
-					border: 2px solid #ccc;
-					border-radius: 10px;
-					background-color: #96ff9f;
-					font-family: Helvetica, Arial, sans-serif;
-					}
+	margin-left: 5px;
+	float: left;
+	padding: 15px 15px;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	background-color: #96ff9f;
+	font-family: Helvetica, Arial, sans-serif;
+	}
