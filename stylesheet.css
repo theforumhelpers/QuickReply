@@ -24,3 +24,33 @@ button {
 	background-color: #96ff9f;
 	font-family: Helvetica, Arial, sans-serif;
 	}
+
+.TOC {
+	float: left;
+	border: 2px solid black;
+	width: 100px;
+	height: 150px;
+	margin-left: 20px;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	background: #FFFFFF;
+	}
+
+.PageLink:link {
+	color: inherit;
+	background-color: transparent;
+	text-decoration: underline;
+	}
+
+.PageLink:visited {
+	color: inherit;
+	background-color: transparent;
+	text-decoration: underline;
+	}
+	
+.PageLink:hover {
+	color: blue;
+	background-color: transparent;
+	text-decoration: underline;
+	}
