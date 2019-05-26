@@ -29,12 +29,16 @@ button {
 	float: left;
 	border: 2px solid black;
 	width: 100px;
-	height: 150px;
+	height: 300px;
 	margin-left: 20px;
 	position: fixed;
 	right: 5px;
 	bottom: 5px;
 	background: #FFFFFF;
+	}
+
+.label {
+	margin-left: 5px
 	}
 
 .PageLink:link {
