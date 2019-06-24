@@ -32,13 +32,13 @@ button {
 .TOC {
 	float: left;
 	border: 2px solid black;
-	width: 100px;
+	width: 120px;
 	height: 250px;
 	margin-left: 20px;
 	position: fixed;
 	right: 5px;
 	bottom: 5px;
-	background: #B7E4E2;
+	background: #A7D4D2;
 	}
 
 .label {
