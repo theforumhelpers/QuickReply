@@ -21,6 +21,7 @@ body {
 
 button {
 	margin-left: 5px;
+	margin-top: 7px;
 	float: left;
 	padding: 15px 15px;
 	border: 2px solid #ccc;
@@ -45,13 +46,7 @@ button {
 	margin-left: 10px
 	}
 
-.PageLink:link {
-	color: inherit;
-	background-color: transparent;
-	text-decoration: underline;
-	}
-
-.PageLink:visited {
+.PageLink:link, .PageLink:visited {
 	color: inherit;
 	background-color: transparent;
 	text-decoration: underline;
