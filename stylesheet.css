@@ -28,7 +28,54 @@ button {
 	border-radius: 10px;
 	background-color: #96ff9f;
 	font-family: Helvetica, Arial, sans-serif;
+body {
+	background: #bceae8
 	}
+
+.container {
+	margin-bottom: 40px;
+	margin-left: 10px;
+	}
+
+.CopyText {
+	float: left;
+	width: 50%;
+	height: 40px;
+	padding: 10px 20px;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	background-color: #f8f8f8;
+	font-family: Helvetica, Arial, sans-serif;
+	resize: none;
+	}
+
+button {
+	margin-left: 5px;
+	margin-top: 7px;
+	float: left;
+	padding: 15px 15px;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	background-color: #96ff9f;
+	font-family: Helvetica, Arial, sans-serif;
+	}
+
+select {
+	transition: border .5s ease;
+	margin-bottom: .75rem;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+  width: 50%;
+	background: #fafafa url(data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IkxheWVyIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjY0Ij48cGF0aCBkPSJNMjQgMzcuNDNhMS44OCAxLjg4IDAgMCAxLTEuMzMtLjU1bC01LjExLTUuMTFhMS44NyAxLjg3IDAgMCAxIDAtMi42NGMuNzMtLjczIDEyLjE0LS43MyAxMi44NyAwYTEuODcgMS44NyAwIDAgMSAwIDIuNjRsLTUuMTEgNS4xMWExLjg2IDEuODYgMCAwIDEtMS4zMi41NXoiIGZpbGw9IiNiM2IzYjMiLz48cGF0aCBzdHlsZT0iaXNvbGF0aW9uOmlzb2xhdGUiIGZpbGw9IiMyMzFmMjAiIG9wYWNpdHk9Ii4xIiBkPSJNLjAxIDBoMXY2NGgtMXoiLz48L3N2Zz4=) no-repeat right center;
+	padding: 10px 20px;
+	font-size: .875rem;
+	-webkit-appearance: none;
+	}
+  
+select:hover {
+  border: 2px solid #aaa;
+  cursor: pointer;
+  }
 
 .TOC {
 	float: left;
