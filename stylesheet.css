@@ -1,5 +1,6 @@
 body {
-	background: #bceae8
+	background: #bceae8;
+	font-family: Arial;
 	}
 
 .container {
@@ -51,7 +52,7 @@ button {
 	background-color: transparent;
 	text-decoration: underline;
 	}
-	
+
 .PageLink:hover {
 	color: blue;
 	background-color: transparent;
