@@ -1,7 +1,8 @@
 // original code https://scratch.mit.edu/discuss/topic/489839/?page=2#post-4968917, edited by 9gr for the forum helpers.
 void(async () => { // Make sure there is no result so the page isn't overwritten
     const res = fetch(`https://functionalmetatable.github.io/quickreply/bookmarklet.json`)
-    let messages = await res.json()
+    let json = await res.json();
+    let messages = Object.value(json);
     (menuItems => {
         let d = document.createElement("div"); // make the menu div
         d.setAttribute("data-easrng-menu", "1"); // let the CSS see it exists without clashing with on-page styles
