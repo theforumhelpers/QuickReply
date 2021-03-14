@@ -2,7 +2,7 @@
 void(async () => { // Make sure there is no result so the page isn't overwritten
     const res = await fetch(`https://functionalmetatable.github.io/QuickReply/bookmarklet.json`, {method:"GET"})
     let json = await res.json();
-    let messages = Object.value(json);
+    let messages = Object.values(json);
     (menuItems => {
         let d = document.createElement("div"); // make the menu div
         d.setAttribute("data-easrng-menu", "1"); // let the CSS see it exists without clashing with on-page styles
