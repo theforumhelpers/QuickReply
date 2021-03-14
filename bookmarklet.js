@@ -47,17 +47,17 @@ void(async () => { // Make sure there is no result so the page isn't overwritten
     })(!!location.href.match(/\/\/scratch.mit.edu\/discuss\/topic\//) // if we are on a forum topic ...
         ? [ // make the autofill menu
             {
-                text: "Autofill post with" // this is the menu title
+                text: "QuickReply: Autofill post with:" // this is the menu title
             },
             ...messages.map(t => ({ // turn the messages into menu items
-                text: t, // with the proper text.
+                text: t.unformattedText, // with the proper text.
                 action: e => { // when one of them is chosen
                     document
                         .querySelector("#reply")
                         .scrollIntoViewIfNeeded(); // scroll the reply box into view
                     document
                         .querySelector("#id_body")
-                        .value += "\n" + t // and add the message to it's text.
+                        .value += "" + t.text // and add the message to it's text.
                 }
             }))
         ]
