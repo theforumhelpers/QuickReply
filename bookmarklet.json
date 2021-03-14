@@ -2,5 +2,13 @@
   "1": {
     "text": "Please don't advertise here. This forum isn't the right place to advertise, and ads here can often cause clutter and get a bit spammy. Feel free to advertise in the [url=https://scratch.mit.edu/discuss/8/]Show And Tell[/url] Forum or in your forum signature, though!",
     "unformattedText": "Please don't advertise here. This forum isn't the right place to advertise, and ads here can often cause clutter and get a bit spammy. Feel free to advertise in the Show And Tell Forum or in your forum signature, though!"
+  },
+  "2": {
+    "text": "Hey there! While it is nice you are trying to help, the Scratch Team is not looking for guides at this time. Feel free to make this in a project instead!",
+    "unformattedText": "Hey there! While it is nice you are trying to help, the Scratch Team is not looking for guides at this time. Feel free to make this in a project instead!"
+  },
+  "3": {
+    "text": "This suggestion has been considered before and rejected for the following reason: [quote=The Offical List of Rejected Suggestions]INSERT QUOTE FROM TOLORS HERE[/quote]. Next time, please check out the list of Rejected Suggestions before you post here.",
+    "unformattedText": "This suggestion has been considered before and rejected for the following reason: [quote=The Offical List of Rejected Suggestions]INSERT QUOTE FROM TOLORS HERE[/quote]. Next time, please check out the list of [url=https://scratch.mit.edu/discuss/topic/343602/]Rejected Suggestions[/url] before you post here."
   }
 }
