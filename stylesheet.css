@@ -58,3 +58,6 @@ button {
 	background-color: transparent;
 	text-decoration: underline;
 	}
+.TOC h3 {
+	line-height: 20px;
+}
