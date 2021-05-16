@@ -127,7 +127,10 @@
   				var copyText = document.getElementById("Text"+area);
  				copyText.select();
   				document.execCommand("copy");
-				}
+				gtag('event', 'QuickReplyCopied', {
+					'Area': area
+				});
+			}
 		</script>
 	</body>
 </html>
