@@ -20,7 +20,7 @@ body {
 	resize: none;
 	}
 
-button {
+button:not(.privacyButton) {
 	margin-left: 5px;
 	margin-top: 7px;
 	float: left;
