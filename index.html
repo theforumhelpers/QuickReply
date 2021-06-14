@@ -1,39 +1,41 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>QuickReply</title>
-		<link rel="shortcut icon" type="image/png" href="favicon.png">
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-		<link rel="stylesheet" type="text/css" href="../resources/stylesheet.css">
-		
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-FGN5P806VX"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
+<html class="lightMode">
+
+<head>
+	<!--<base href="https://theforumhelpers.github.io"> used for tesing.. nothing to see here-->
+	<meta charset="UTF-8">
+	<title>QuickReply</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="QuickReply/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="../resources/stylesheet.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FGN5P806VX">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 
 			gtag('config', 'G-FGN5P806VX');
-		</script>
-	</head>
+	</script>
+</head>
 
-	<body style= "margin:0" class="lightMode">
-		<header id="header"></header>
+<body style="margin:0;">
+	<header id="header"></header>
 
-		<div class="TOC">
+	<div class="TOC">
 		<h3 style="text-align: center;"><a href="#top" class="PageLink">Top</a></h3>
 		<h3 style="text-align: center;"><a href="#general" class="PageLink">General</a></h3>
 		<h3 style="text-align: center;"><a href="#suggestions" class="PageLink">Suggestions</a></h3>
 		<h3 style="text-align: center;"><a href="#qas" class="PageLink">QAS</a></h3>
 		<h3 style="text-align: center;"><a href="#hws" class="PageLink">HWS</a></h3>
 		<h3 style="text-align: center;"><a href="#bag" class="PageLink">BAG</a></h3>
-		</div>
+	</div>
 
-		<p class="label">Click on the button to copy the text from the text field.</p>
-		<h2 class="label" id="general">General</h2>
+	<p class="label">Click on the button to copy the text from the text field.</p>
+	<h2 class="label" id="general">General</h2>
 
-		<div class="container">
+	<div class="container">
 		<textarea class="CopyText" id="Text2" readonly>Please don't advertise here. This forum isn't the right place to advertise, and ads here can often cause clutter and get a bit spammy. Feel free to advertise in the [url=https://scratch.mit.edu/discuss/8/]Show And Tell[/url] Forum or in your forum signature, though!</textarea>
 		<button onclick="myFunction(2)">Copy Text</button>
 		<br>
@@ -121,7 +123,6 @@
 		<footer id="footer"></footer>
 		
 		<script src="../resources/imports.js" onload='reference("../")'></script>
-									       
 		<script>
 			function myFunction(area) {
   				var copyText = document.getElementById("Text"+area);
@@ -131,6 +132,9 @@
 					'Area': area
 				});
 			}
+      //remove this bit when change theme is added
+      document.getElementById('changeTheme').setAttribute('title', 'working on it!');
+      //stop removing!
 		</script>
 	</body>
 </html>
