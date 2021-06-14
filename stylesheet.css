@@ -32,14 +32,15 @@ button:not(.privacyButton) {
 	}
 
 .TOC {
-  border: 2px solid #000;
-  width: 150px; 
-  height: 250px;
-  position: fixed;
-  right: 5px;
-  bottom: 5px;
-  text-align: center;
-  background: #A7D4D2;
+  float: left;
+	border: 2px solid black;
+	width: 150px;
+	height: 250px;
+	margin-left: 20px;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	background: #A7D4D2;
 	line-height: 20px;
 	}
 
