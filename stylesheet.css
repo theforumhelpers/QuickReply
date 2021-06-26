@@ -32,7 +32,7 @@ button:not(.privacyButton) {
 	}
 
 .TOC {
-	float: left;
+  float: left;
 	border: 2px solid black;
 	width: 150px;
 	height: 250px;
