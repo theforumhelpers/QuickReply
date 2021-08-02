@@ -1,61 +1,89 @@
+html.lightMode {
+	--tableOfContents: #A7D4D2;
+	--copyBack: #96ff9f;
+	--border: #ccc;
+	--copyTextBack: #f8f8f8;
+}
+html.darkMode {
+	--tableOfContents: #000;
+	--copyBack: #555;
+	--border: #333;
+	--copyTextBack: #777;
+}
+html.scratchMode {
+	--tableOfContents: var(--secondary);
+	--copyBack: #0fde8c;
+	--border: #d9d9d9;
+	--copyTextBack: white;
+}
+html.terminalMode {
+	--tableOfContents: #000;
+	--copyBack: var(--primary);
+	--border: var(--textPrimary);
+	--copyTextBack: var(--primary);
+}
 body {
-	background: #bceae8 !important;
+	background: var(--primary) !important;
 	font-family: Arial;
-	}
+	color: var(--textPrimary);
+}
 
 .container {
 	margin-bottom: 40px;
 	margin-left: 10px;
-	}
+}
 
 .CopyText {
 	float: left;
 	width: 50%;
 	height: 40px;
 	padding: 10px 20px;
-	border: 2px solid #ccc;
+	border: 2px solid var(--border);
 	border-radius: 10px;
-	background-color: #f8f8f8;
+	background-color: var(--copyTextBack);
 	font-family: Helvetica, Arial, sans-serif;
 	resize: none;
-	}
+	color: var(--textPrimary);
+}
 
 button:not(.privacyButton) {
 	margin-left: 5px;
 	margin-top: 7px;
 	float: left;
 	padding: 15px 15px;
-	border: 2px solid #ccc;
+	border: 2px solid var(--border);
 	border-radius: 10px;
-	background-color: #96ff9f;
+	color: var(--textPrimary);
+	background-color: var(--copyBack);
 	font-family: Helvetica, Arial, sans-serif;
-	}
+}
 
 .TOC {
   float: left;
-	border: 2px solid black;
+	border: 2px solid var(--textPrimary);
+	color: var(--textPrimary);
 	width: 150px;
 	height: 250px;
 	margin-left: 20px;
 	position: fixed;
 	right: 5px;
 	bottom: 5px;
-	background: #A7D4D2;
+	background: /*#A7D4D2*/ var(--tableOfContents);
 	line-height: 20px;
-	}
+}
 
 .label {
 	margin-left: 10px
-	}
+}
 
 .PageLink:link, .PageLink:visited {
 	color: inherit;
 	background-color: transparent;
 	text-decoration: underline;
-	}
+}
 
 .PageLink:hover {
-	color: blue;
+	color: var(--linkHover);
 	background-color: transparent;
 	text-decoration: underline;
-	}
+}
