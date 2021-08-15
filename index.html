@@ -2,11 +2,10 @@
 <html lang="en" class="lightMode">
 
 <head>
-  <base href="https://theforumhelpers.github.io/QuickReply">
 	<meta charset="UTF-8">
 	<title>QuickReply</title>
 	<link rel="shortcut icon" type="image/png" href="../resources/favicon.png">
-	<link rel="stylesheet" type="text/css" href="https://QuickReply.stevesgreatness.repl.co/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="../resources/stylesheet.css">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FGN5P806VX">
@@ -127,16 +126,12 @@
   				var copyText = document.getElementById("Text"+area);
  				copyText.select();
   				document.execCommand("copy");
-				/*gtag('event', 'QuickReplyCopied', {
+				gtag('event', 'QuickReplyCopied', {
 					'Area': area
-				});*/
+				});
 			}
-      //this and the next line when theme's are added
+      //This line of code is a left over.
       //document.getElementById('changeTheme').style.display = "none";
-			alert(`themes in this part of the Forum Helpers website aren't currently finished.`)
-			alert(`If you's like to suggest a change to the themes, please give it on 1 of the 2 links:`)
-			alert(`https://github.com/theforumhelpers/QuickReply/issues/38
-			https://replit.com/@StevesGreatness/QuickReply`)
 		</script>
 	</body>
 </html>
